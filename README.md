@@ -27,3 +27,5 @@ Known VXE R1 transports, experimental MCHOSE Ace 60 / Ace 60 Pro firmware 1.18, 
 Open Scan devices in the Windows sidebar, scan connected devices, select your mouse/keyboard entries, type the actual model name and requested features, then Preview report. Share on GitHub using your own login, or Copy report for your group chat without an account. The scan does not write device settings or send anything automatically. Reports include selected device names/classes and USB VID/PID; no serial numbers or computer/account identifiers.
 
 [Review device reports](https://github.com/rickyinnitdev/FamilyGear-Downloads/issues?q=is%3Aissue+%22%5BDevice+report%5D%22)
+
+Version 0.2.4 groups extra Windows interfaces into one entry per connected mouse/keyboard. Audio/radio HID entries and hubs are hidden. The scan identifies connected working USB gear, not which device is currently being pressed or moved.
