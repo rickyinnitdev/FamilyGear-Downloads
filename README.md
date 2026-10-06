@@ -21,3 +21,9 @@ Use Share an idea in the app to preview your message. You can copy it to your gr
 ## Device support
 
 Known VXE R1 transports, experimental MCHOSE Ace 60 / Ace 60 Pro firmware 1.18, and selected ATTACK SHARK models. Support is model-specific; some controls require a verified device read. AULA and the X11 native bridge are not implemented. Preview mode uses sample values and does not write hardware. This personal Windows build is unsigned.
+
+## Device reports (0.2.3)
+
+Open Scan devices in the Windows sidebar, scan connected devices, select your mouse/keyboard entries, type the actual model name and requested features, then Preview report. Share on GitHub using your own login, or Copy report for your group chat without an account. The scan does not write device settings or send anything automatically. Reports include selected device names/classes and USB VID/PID; no serial numbers or computer/account identifiers.
+
+[Review device reports](https://github.com/rickyinnitdev/FamilyGear-Downloads/issues?q=is%3Aissue+%22%5BDevice+report%5D%22)
