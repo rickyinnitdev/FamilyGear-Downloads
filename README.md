@@ -4,7 +4,7 @@ A personal mouse and keyboard studio for you and your friends.
 
 ## Install
 
-[Download the latest Windows installer](https://github.com/rickyinnitdev/FamilyGear-Downloads/releases/latest/download/FamilyGear-Setup-0.2.2.exe)
+[Download the latest Windows installer](https://github.com/rickyinnitdev/FamilyGear-Downloads/releases/latest)
 
 Run the Setup .exe and open Family Gear. Close other configurators, click Add device and select your supported USB device. No GitHub account is needed to download or update.
 
