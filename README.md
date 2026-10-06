@@ -12,6 +12,8 @@ Version 0.2.2 is the first installer with online updates configured. If you have
 
 ## Source and notices
 
+Read the [AGPL license](LICENSE) and [third-party notices and attribution](THIRD_PARTY_NOTICES.md). These also accompany the app and its corresponding source.
+
 Each installer includes the matching Family-Gear-source.zip and license notices. About & source opens the installed resources folder. Release assets also provide a separate matching source ZIP with editable code and build instructions. Family Gear is licensed under AGPL-3.0-or-later and uses OpenMouse protocol code; full attribution is included in the package.
 
 ## Suggestions
