@@ -61,3 +61,9 @@ Initial experimental ATTACK SHARK X68HE support (3151:502D): Add device → ATTA
 
 Corrects X68HE polling/profile command separation and requires settings readback. Adds RGB keyboard illustration, effect tiles, digital key feedback, Load current settings and Cancel changes. X11 connections accept event collections on another interface only when Windows confirms the same physical device group. Failed connections now open the reviewed local interface report automatically; copy it for diagnosis. Physical X11/X68HE confirmation is still needed; HE editing and analog depth remain unavailable.
 
+## Version 0.2.13
+
+Adds optional automatic device reports to the developer’s Google Forms inbox. Agree once, then supported device connections and failed X11 connections generate read-only smoke checks with automatic delivery retries. No Google or GitHub sign-in is needed for friends. Device reports lets you disable uploads or delete queued reports. Reports contain app version, USB IDs, interface metadata and read outcomes, excluding serials, paths, typed keys and raw packets. Physical buttons, lighting and latency remain marked not tested.
+
+X68HE adds richer RGB illustrations and reactive digital key feedback. Hardware controls still require verified device readback; Hall effect editing remains unavailable pending protocol verification. Matching source and licenses are included in the installer and release assets.
+
