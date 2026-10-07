@@ -67,3 +67,7 @@ Adds optional automatic device reports to the developer’s Google Forms inbox. 
 
 X68HE adds richer RGB illustrations and reactive digital key feedback. Hardware controls still require verified device readback; Hall effect editing remains unavailable pending protocol verification. Matching source and licenses are included in the installer and release assets.
 
+
+## Version 0.2.14
+
+X68HE now opens in the main keyboard workspace with selectable keys, RGB preview, current settings, Cancel and explicit Apply. Adds firmware-aware actuation, release, rapid-trigger and bottom-deadzone controls. Each physical key needs release/hold verification before editing; stale settings and unconfirmed readback are rejected. Disabled RT preserves unused sensitivity bytes. Advanced bindings and calibration remain unavailable. RGB preview is illustrative; key feedback is digital. Tested with mocked devices; physical X68 testing is still needed. X11 receiver connection is not fixed in this release.
