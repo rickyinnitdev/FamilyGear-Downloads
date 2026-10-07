@@ -91,3 +91,7 @@ Fixes X11 connection timeout racing its Windows discovery helper. Queries only e
 ## Version 0.2.19
 
 Fixes X11 DPI decoding rejecting alternate documented stored representations. Strict code/range/checksum validation and write readback remain. Physical X11 confirmation is still outstanding.
+
+## Version 0.2.20
+
+Owner-supplied X11 mouse and X68HE keyboard artwork replaces placeholders. Owner confirmed X11 connection works after 0.2.19.
