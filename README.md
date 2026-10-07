@@ -83,3 +83,7 @@ Corrects X11 settings decoding for legacy paired high-DPI flags, adds bounded re
 ## Version 0.2.17
 
 X68HE recognized hardware revisions load their factory switch maps for direct trigger editing: click keys, adjust loaded sliders and Apply, without holding to unlock. Adds Multicolor control; Constant and color selection turn it off. Corrected physical layout and multi-selection. X11 displays progress and the actual failure and uses batched, bounded Windows interface lookup. Physical receiver confirmation is still needed.
+
+## Version 0.2.18
+
+Fixes X11 connection timeout racing its Windows discovery helper. Queries only enumerated X11 HID instance metadata rather than all present PC devices. Connection UI shows progress and allows time for identity and current settings reads. Physical X11 confirmation remains outstanding.
