@@ -95,3 +95,7 @@ Fixes X11 DPI decoding rejecting alternate documented stored representations. St
 ## Version 0.2.20
 
 Owner-supplied X11 mouse and X68HE keyboard artwork replaces placeholders. Owner confirmed X11 connection works after 0.2.19.
+
+## Version 0.2.21
+
+Added devices are remembered on this computer and reconnect when Family Gear opens. Add each device once after updating. Current settings are read from the device; old settings are never applied automatically. Disconnected devices remain on your desk with a reconnect button. Use Forget saved devices to clear automatic reconnect preferences.
