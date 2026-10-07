@@ -75,3 +75,7 @@ X68HE now opens in the main keyboard workspace with selectable keys, RGB preview
 ## Version 0.2.15
 
 Adds X11 receiver pairing using the verified Windows USB composite parent when collection ContainerIds are missing or differ. Rejects unrelated receivers, USB hubs and ambiguous matches. Failed opt-in reports now include pairing and settings-read stage outcomes without paths or serials. After updating, close other mouse drivers, unplug/replug the receiver, wake the mouse and choose Add ATTACK SHARK X11. Mocked tests pass; physical X11 confirmation is still needed.
+
+## Version 0.2.16
+
+Corrects X11 settings decoding for legacy paired high-DPI flags, adds bounded read-only retries and names the setting that fails. Physical X11 confirmation is still needed. X68HE trigger editing is easier: click a key, hold it when prompted, then adjust its loaded settings with sliders or number inputs and Apply. Cancel restores device values; drafts survive tab changes. Faster overview reporting and RGB/polling operations avoid redundant HE transfers, while HE writes retain complete stale checks and readback. No factory defaults, resets or invented measurements.
