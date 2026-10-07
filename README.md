@@ -39,3 +39,5 @@ Corrects the CompX VXE R1 polling register. The built app was tested on a connec
 Check delay & optimize previews supported mouse settings and offers restore. It reads Windows pointer settings without changing Windows. It does not promise zero delay or identify the cause of game latency.
 
 SC620 Test report & agreement enables optional local recording of connection and Apply outcomes. Reports distinguish device readback from physical behavior. Friends review and copy them into your group chat, or open a public GitHub issue form. Nothing is uploaded automatically, and recording can be stopped/deleted.
+
+Version 0.2.8 fixes CompX R1 click debounce. The built app confirmed 2 ms on the connected F58E receiver, then restored its original 4 ms. The complete sensor settings row is checked before and after writing to preserve unrelated settings.
