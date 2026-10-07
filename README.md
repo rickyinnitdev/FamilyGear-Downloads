@@ -71,3 +71,7 @@ X68HE adds richer RGB illustrations and reactive digital key feedback. Hardware 
 ## Version 0.2.14
 
 X68HE now opens in the main keyboard workspace with selectable keys, RGB preview, current settings, Cancel and explicit Apply. Adds firmware-aware actuation, release, rapid-trigger and bottom-deadzone controls. Each physical key needs release/hold verification before editing; stale settings and unconfirmed readback are rejected. Disabled RT preserves unused sensitivity bytes. Advanced bindings and calibration remain unavailable. RGB preview is illustrative; key feedback is digital. Tested with mocked devices; physical X68 testing is still needed. X11 receiver connection is not fixed in this release.
+
+## Version 0.2.15
+
+Adds X11 receiver pairing using the verified Windows USB composite parent when collection ContainerIds are missing or differ. Rejects unrelated receivers, USB hubs and ambiguous matches. Failed opt-in reports now include pairing and settings-read stage outcomes without paths or serials. After updating, close other mouse drivers, unplug/replug the receiver, wake the mouse and choose Add ATTACK SHARK X11. Mocked tests pass; physical X11 confirmation is still needed.
