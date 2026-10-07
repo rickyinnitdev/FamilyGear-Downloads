@@ -51,3 +51,8 @@ Experimental X11 controls include current DPI stages/colors, polling, debounce, 
 ## Version 0.2.10
 
 Corrects X11 receiver interface pairing using Windows physical-device groups. After updating, reconnect the 2.4 GHz receiver and use Add ATTACK SHARK X11. If it still fails, open Add device → X11 connection details, review the local interface report and copy it to your group chat. The report excludes paths, serial numbers and computer identifiers. Physical X11 verification is still needed.
+
+## Version 0.2.11
+
+Initial experimental ATTACK SHARK X68HE support (3151:502D): Add device → ATTACK SHARK X68HE using wired USB. Reads and verifies RGB and polling changes. Recognized Hall effect firmware-slot values are read-only. Trigger editing, physical key mapping, calibration, analog travel and advanced bindings remain unavailable pending verification. Physical X68HE testing is still needed. Matching source and notices are included.
+
