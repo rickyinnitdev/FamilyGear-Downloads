@@ -87,3 +87,7 @@ X68HE recognized hardware revisions load their factory switch maps for direct tr
 ## Version 0.2.18
 
 Fixes X11 connection timeout racing its Windows discovery helper. Queries only enumerated X11 HID instance metadata rather than all present PC devices. Connection UI shows progress and allows time for identity and current settings reads. Physical X11 confirmation remains outstanding.
+
+## Version 0.2.19
+
+Fixes X11 DPI decoding rejecting alternate documented stored representations. Strict code/range/checksum validation and write readback remain. Physical X11 confirmation is still outstanding.
