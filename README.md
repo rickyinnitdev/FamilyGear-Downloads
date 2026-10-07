@@ -79,3 +79,7 @@ Adds X11 receiver pairing using the verified Windows USB composite parent when c
 ## Version 0.2.16
 
 Corrects X11 settings decoding for legacy paired high-DPI flags, adds bounded read-only retries and names the setting that fails. Physical X11 confirmation is still needed. X68HE trigger editing is easier: click a key, hold it when prompted, then adjust its loaded settings with sliders or number inputs and Apply. Cancel restores device values; drafts survive tab changes. Faster overview reporting and RGB/polling operations avoid redundant HE transfers, while HE writes retain complete stale checks and readback. No factory defaults, resets or invented measurements.
+
+## Version 0.2.17
+
+X68HE recognized hardware revisions load their factory switch maps for direct trigger editing: click keys, adjust loaded sliders and Apply, without holding to unlock. Adds Multicolor control; Constant and color selection turn it off. Corrected physical layout and multi-selection. X11 displays progress and the actual failure and uses batched, bounded Windows interface lookup. Physical receiver confirmation is still needed.
