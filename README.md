@@ -32,9 +32,9 @@ Open Scan devices in the Windows sidebar, scan connected devices, select your mo
 
 Version 0.2.4 groups extra Windows interfaces into one entry per connected mouse/keyboard. Audio/radio HID entries and hubs are hidden. The scan identifies connected working USB gear, not which device is currently being pressed or moved.
 
-## Version 0.2.6
+## Version 0.2.7
 
-R1 receiver polling changes wait for confirmed readback. An unavailable read is shown as Unknown rather than a default1,000 Hz. Existing DPI stages can be edited after complete validated reads; stage switching on that receiver still uses the physical DPI button. Physical validation remains needed.
+Corrects the CompX VXE R1 polling register. The built app was tested on a connected 3554:F58E receiver: Apply confirmed 800 DPI and 500 Hz, then restored the original 1600 DPI and 1000 Hz. Failed Apply keeps your selection and shows an inline result with Cancel changes. Existing DPI stage edits preserve other stages; stage switching still uses the physical DPI button. Other models retain their existing compatibility limits.
 
 Check delay & optimize previews supported mouse settings and offers restore. It reads Windows pointer settings without changing Windows. It does not promise zero delay or identify the cause of game latency.
 
