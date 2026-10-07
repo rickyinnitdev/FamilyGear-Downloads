@@ -22,7 +22,7 @@ Use Share an idea in the app to preview your message. You can copy it to your gr
 
 ## Device support
 
-Known VXE R1 transports, experimental MCHOSE Ace 60 / Ace 60 Pro firmware 1.18, and selected ATTACK SHARK models. Support is model-specific; some controls require a verified device read. AULA and the X11 native bridge are not implemented. Preview mode uses sample values and does not write hardware. This personal Windows build is unsigned.
+Known VXE R1 transports, experimental MCHOSE Ace 60 / Ace 60 Pro firmware 1.18, and selected ATTACK SHARK models. Support is model-specific; some controls require a verified device read. AULA SC620 has experimental USB/2.4 GHz profile-1 support; other AULA models and the X11 native bridge are not implemented. Preview mode uses sample values and does not write hardware. This personal Windows build is unsigned.
 
 ## Device reports (0.2.3)
 
@@ -31,3 +31,11 @@ Open Scan devices in the Windows sidebar, scan connected devices, select your mo
 [Review device reports](https://github.com/rickyinnitdev/FamilyGear-Downloads/issues?q=is%3Aissue+%22%5BDevice+report%5D%22)
 
 Version 0.2.4 groups extra Windows interfaces into one entry per connected mouse/keyboard. Audio/radio HID entries and hubs are hidden. The scan identifies connected working USB gear, not which device is currently being pressed or moved.
+
+## Version 0.2.6
+
+R1 receiver polling changes wait for confirmed readback. An unavailable read is shown as Unknown rather than a default1,000 Hz. Existing DPI stages can be edited after complete validated reads; stage switching on that receiver still uses the physical DPI button. Physical validation remains needed.
+
+Check delay & optimize previews supported mouse settings and offers restore. It reads Windows pointer settings without changing Windows. It does not promise zero delay or identify the cause of game latency.
+
+SC620 Test report & agreement enables optional local recording of connection and Apply outcomes. Reports distinguish device readback from physical behavior. Friends review and copy them into your group chat, or open a public GitHub issue form. Nothing is uploaded automatically, and recording can be stopped/deleted.
