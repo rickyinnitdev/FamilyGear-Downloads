@@ -41,3 +41,9 @@ Check delay & optimize previews supported mouse settings and offers restore. It 
 SC620 Test report & agreement enables optional local recording of connection and Apply outcomes. Reports distinguish device readback from physical behavior. Friends review and copy them into your group chat, or open a public GitHub issue form. Nothing is uploaded automatically, and recording can be stopped/deleted.
 
 Version 0.2.8 fixes CompX R1 click debounce. The built app confirmed 2 ms on the connected F58E receiver, then restored its original 4 ms. The complete sensor settings row is checked before and after writing to preserve unrelated settings.
+
+## Version 0.2.9
+
+Adds the supplied AULA SC620 image to device cards and mouse preview. ATTACK SHARK X11 can use the Windows app's **Add ATTACK SHARK X11** native connection over USB or its 2.4 GHz receiver. Wake the mouse before adding it and close other configurators.
+
+Experimental X11 controls include current DPI stages/colors, polling, debounce, sensor flags, lift-off distance, lighting/sleep, basic/media button assignments and profiles. The mouse must identify itself and confirm settings reads and writes. No physical X11 was available for verification; test one setting at a time. Macro and stage-count editing are not enabled. Dock RGB uses its physical button. Corresponding source and third-party license notices are included in every release.
