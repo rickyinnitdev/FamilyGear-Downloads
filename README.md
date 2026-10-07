@@ -56,3 +56,8 @@ Corrects X11 receiver interface pairing using Windows physical-device groups. Af
 
 Initial experimental ATTACK SHARK X68HE support (3151:502D): Add device → ATTACK SHARK X68HE using wired USB. Reads and verifies RGB and polling changes. Recognized Hall effect firmware-slot values are read-only. Trigger editing, physical key mapping, calibration, analog travel and advanced bindings remain unavailable pending verification. Physical X68HE testing is still needed. Matching source and notices are included.
 
+
+## Version 0.2.12
+
+Corrects X68HE polling/profile command separation and requires settings readback. Adds RGB keyboard illustration, effect tiles, digital key feedback, Load current settings and Cancel changes. X11 connections accept event collections on another interface only when Windows confirms the same physical device group. Failed connections now open the reviewed local interface report automatically; copy it for diagnosis. Physical X11/X68HE confirmation is still needed; HE editing and analog depth remain unavailable.
+
