@@ -47,3 +47,7 @@ Version 0.2.8 fixes CompX R1 click debounce. The built app confirmed 2 ms on the
 Adds the supplied AULA SC620 image to device cards and mouse preview. ATTACK SHARK X11 can use the Windows app's **Add ATTACK SHARK X11** native connection over USB or its 2.4 GHz receiver. Wake the mouse before adding it and close other configurators.
 
 Experimental X11 controls include current DPI stages/colors, polling, debounce, sensor flags, lift-off distance, lighting/sleep, basic/media button assignments and profiles. The mouse must identify itself and confirm settings reads and writes. No physical X11 was available for verification; test one setting at a time. Macro and stage-count editing are not enabled. Dock RGB uses its physical button. Corresponding source and third-party license notices are included in every release.
+
+## Version 0.2.10
+
+Corrects X11 receiver interface pairing using Windows physical-device groups. After updating, reconnect the 2.4 GHz receiver and use Add ATTACK SHARK X11. If it still fails, open Add device → X11 connection details, review the local interface report and copy it to your group chat. The report excludes paths, serial numbers and computer identifiers. Physical X11 verification is still needed.
